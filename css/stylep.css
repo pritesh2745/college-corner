@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    width: 33%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.logo img{
+    width: 55vh;
+    opacity: 60%;
+    /* height: auto; */
+}
+.navbar{
+    /* display: flex;
+    
+    
+    background-color: wheat;
+    background-blend-mode: normal; */
+    background-image: url("..img/lauren-mancke-aOC7TSLb1o8-unsplash.png");
+    
+    position: relative;
+    display: flex;
+    height: 50%;
+}
+.navbar::before{
+    content: ' ';
+    display: block;
+    position: absolute;
+    display: flex;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 50%;
+    background-position:57%;
+  
+    background-size:cover;
+    background-repeat: no-repeat;
+    opacity:30%;
+    mix-blend-mode:inherit;
+}
+.navigation{
+    margin: 0px -0.2% 0% -1%;
+    /* background-color: black; */
+    height: 100%;
+    width: 100%;
+}
+
+
+.nav-list{
+width: 60%;
+height: 30%;
+position: relative;
+display: flex;
+justify-content: center;
+align-items:center;
+}
+.nav-list li{
+ list-style: none;
+ padding: 0 23px ;
+ align-items: center;
+}
+.nav-list li a{
+text-decoration: none;
+/* color: black; */
+}
+.rightnav{
+    /* background-color: blue; */
+    width: 50%;
+    text-align: right;
+}
+.btn{
+    /* font-family: 'Poppins', sans-serif; */
+    /* font-family: 'Poppins', sans-serif; */
+    /* font:bold; */
+    font-family: 'Poppins', sans-serif;
+    background-color:rgb(253, 255, 255);
+    width: 100px;
+    height: 40px;
+    opacity: 40%;
+
+    border-radius: 20px;
+}
