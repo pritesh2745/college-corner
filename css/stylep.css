@@ -82,10 +82,11 @@ text-decoration: none;
     width: 100px;
     height: 40px;
     opacity: 60%;
-
+border-style: hidden;
     border-radius: 20px;
     box-shadow:1px 0px 15px 8px rgb(87, 76, 76);
     transition-duration: 0.4s;
+    /* border-color: none; */
     /* width:200px; */
     /* height:200px; */
     /* margin-left:100px; */
