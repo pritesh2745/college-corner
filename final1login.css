@@ -209,8 +209,12 @@ position:absolute;
 .Id input{
     border: none;
     border-bottom: 2px solid black;
-    background-color: rgba(230, 230, 250, 0.148);
+    /* background-color: rgba(230, 230, 250, 0.148); */
+    background-color: rgba(230, 230, 250, 0.348);
+    
     width: 13rem;
+    outline: none;
+    /* pointer-events: none; */
 }
 .SignIn button{
     /* background-color:pink;
