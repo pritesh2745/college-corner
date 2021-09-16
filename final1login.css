@@ -10,7 +10,8 @@ main{
     min-height: 100vh;
     /* height: 200vh; */
     /* background-color:rgb(91, 88, 114); */
-    background-image: url("css/img/background.jpg");
+    /* background-image: url("css/img/background.jpg"); */
+
     background-size: cover;
     padding: 2rem;
     overflow: hidden;
@@ -18,7 +19,7 @@ main{
     justify-content: center;
     align-items: center;
     /* background-image: linear-gradient(to right, #434343 0%, black 100%); */
-    /* background-image: linear-gradient( 109.6deg, rgb(201, 108, 238) 11.2%, rgba(110,123,251,1) 91.1% ); */
+    background-image: linear-gradient( 109.6deg, rgb(201, 108, 238) 11.2%, rgba(110,123,251,1) 91.1% );
     /* font-family: 'Ubuntu', sans-serif; */
     font-family: 'Poppins', sans-serif;
 }
@@ -27,7 +28,7 @@ main{
     height: 540px;
     max-width: 920px;
     /* background-color:lavender; */
-    background-color: rgba(84, 84, 86, 0.548);
+    background-color: rgba(0, 0, 0, 0.76);
     border-radius: 2rem;
     justify-content: center;
     align-content: center;
@@ -64,7 +65,7 @@ main{
 }
 .space-left{
     transition: 0.8s ease-in-out;
-    background-color:rgb(167, 114, 243);
+    background-color:rgb(66, 132, 134);
     position: absolute;
     top: 0;
     left: 45%;
@@ -154,7 +155,7 @@ position:absolute;
     height: 40px;
     border-radius: 0.4rem;
     z-index: 0;
-    background-color: rgb(141, 245, 131);
+    background-color: rgba(141, 245, 131, 0.473);
     top: 5%;
     left: 25%;
 }
@@ -164,7 +165,7 @@ position:absolute;
     height: 120px;
     border-radius: 2rem;
     z-index: 0;
-    background-color: rgb(219, 247, 118);
+    background-color: rgba(219, 247, 118, 0.473);
     transform: rotateZ(10deg);
     bottom: 5%;
     right: 13%;
@@ -176,7 +177,7 @@ position:absolute;
     border-radius: 1rem;
     z-index: 0;
     /* background-color: rgb(219, 247, 118); */
-    background-color: rgb(141, 245, 131);
+    background-color: rgb(141, 245, 131,0.473);
     transform: rotateZ(-20deg);
     bottom: 3%;
     right: 4%;
@@ -189,7 +190,7 @@ position:absolute;
     z-index: 0;
     /* background-color: rgb(219, 247, 118); */
     /* background-color: rgb(141, 245, 131); */
-    background-color: rgb(94, 192, 231);
+    background-color: rgb(94, 192, 231,0.473);
     transform: rotateZ(-20deg);
     top: 3%;
     left: 4%;
@@ -212,38 +213,165 @@ position:absolute;
     width: 13rem;
 }
 .SignIn button{
-    background-color:pink;
-    /* background-color: rgb(126, 121, 249); */
+    /* background-color:pink;
     padding: 0.5rem 2rem;
     border-radius: 1rem;
-    border-style: hidden;
+    border-style: hidden; */
+    /* background-color: rgb(126, 121, 249); */
    
     /* border: none; */
     /* border-bottom: 1px solid black; */
+    font-family: 'Poppins', sans-serif;
+    background-color:rgb(253, 255, 255);
+    margin-top: 4vh;
+    width: 100px;
+    height: 40px;
+    opacity: 60%;
+border-style: hidden;
+    border-radius: 20px;
+    box-shadow:1px 0px 15px 8px rgb(87, 76, 76);
+    transition-duration: 0.4s;
+}
+.SignIn button:hover{
+    /* background-color: rgb(138, 108, 108); */
+    transform:scale(1.1,1.1);
+    -webkit-transform:scale(1.1,1.1);
+    -moz-transform:scale(1.1,1.1);
+    background-color: rgb(80, 69, 69);
+   
+    opacity: 60%;
+    color: white;
 }
 a{
     text-decoration: none;
 }
 .Google button{
     /* background-color: red; */
-    padding: 0.6rem 5rem;
-    background-color:rgb(141,249,184);
+    /* padding: 0.6rem 5rem; */
+    /* background-color:rgb(141,249,184);
     border: none;
-    border-radius: 0.5rem;
+    border-radius: 0.5rem; */
+    font-family: 'Poppins', sans-serif;
+    background-color:rgb(253, 255, 255);
+    width: 100px;
+    height: 40px;
+    opacity: 60%;
+    border-style: hidden;
+    border-radius: 20px;
+    box-shadow:1px 0px 15px 8px rgb(87, 76, 76);
+    transition-duration: 0.4s;
+}
+.Google button:hover{
+    transform:scale(1.1,1.1);
+    -webkit-transform:scale(1.1,1.1);
+    -moz-transform:scale(1.1,1.1);
+    background-color: rgb(80, 69, 69);
+    
+    opacity: 60%;
+    color: white;
 }
 .Signup button{
-    background-color:rgb(141,249,184);
-    /* background-color: rgb(126, 121, 249); */
-    padding: 0.5rem 2rem;
-    border-radius: 1rem;
+    font-family: 'Poppins', sans-serif;
+    background-color:rgb(253, 255, 255);
+    width: 100px;
+    height: 30px;
+    opacity: 60%;
     border-style: hidden;
+    border-radius: 20px;
+    box-shadow:1px 0px 15px 8px rgb(87, 76, 76);
+    transition-duration: 0.4s;
+    margin-top:1vh;
  
+}
+.Signup button:hover{
+    transform:scale(1.1,1.1);
+    -webkit-transform:scale(1.1,1.1);
+    -moz-transform:scale(1.1,1.1);
+    background-color: rgb(80, 69, 69);
+    
+    opacity: 60%;
+    color: white;
 }
 #Branch label{
     margin-right: 15px;
 }
 #Branch select{
     border: none;
-    background-color: rgba(230, 230, 250, 0.348);
+    background-color: inherit;
     border-bottom: 2px solid black;
 }
+
+.dropbtn {
+    /* background-color: #4CAF50; */
+    
+    color: rgb(8, 8, 8);
+    border: 3px solid rgb(66, 132, 134);
+    padding: 16px;
+    /* margin-right:3vw ; */
+    font-size: 16px;
+    border-radius: 10px;
+    
+    /* border: none; */
+    cursor: pointer;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9ea;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content option{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content option:hover {
+      background-color: #b8b8b883
+}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+      cursor: pointer;
+      color: white;
+    background-color: rgb(66, 132, 134);
+    transition-duration: 0.6s;
+  }
+  /* .SignIn button:hover{
+      background-color: wheat;
+      transition-duration:0.6s;
+  }
+  */
+  /* #hover:hover{
+    background-color: wheat;
+    transition-duration:0.6s;
+  } */
+  a{
+      color:  rgba(0, 99, 66, 0.89);
+  }
+  a:hover{
+    color:rgb(19, 18, 18);
+    transition-duration:0.6s;
+  }
+  #hover1 :hover{
+      color: rgb(37, 62, 65);
+  }
