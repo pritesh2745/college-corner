@@ -58,7 +58,7 @@ main{
 }
 .sign-up-mode
 .Form-wrap{
-    transform: rotatex(180deg);
+    transform: rotatey(180deg);
     transition: transform 1s ease-out;
     /* background-color: lavender; */
     background-color: rgba(230, 230, 250, 0.348);
@@ -74,7 +74,7 @@ main{
     border-radius: 20px;
 }
 .show{
-    transform: rotatex(180deg);
+    transform: rotatey(180deg);
     transition: opacity 0.02s 0.4s;
     opacity: 0; 
     pointer-events: none;
@@ -84,7 +84,7 @@ main{
     /* background-color: rgba(230, 230, 250, 0.548); */
     background-color: rgba(230, 230, 250, 0.548);
     color: rgb(10, 10, 10);
-    transform: rotatex(180deg);
+    transform: rotatey(180deg);
     z-index: 2;
     /* filter: blur(8px); */
     display: flex;
@@ -113,7 +113,7 @@ main{
 .fig-4{
     z-index: 2;
     border-radius: 20px;
-    transform: rotatex(180deg);
+    transform: rotatey(180deg);
     /* background-color: lavender; */
     background-color: rgba(230, 230, 250, 0.348);
     color: black;
@@ -333,7 +333,7 @@ a{
       border-radius: 10px;
     }
     select:hover{
-        background:#4d5061 ;
+        background:#4d5061;
         border: none;
         color: white;
         transition: 0.8s;
@@ -341,7 +341,12 @@ a{
     option{
         font-family: 'Poppins', sans-serif;  
         border-radius: 15px;
+        background-color: #4d5061;
+        background: #4d5061;
   }
+  /* option:hover{
+background: tomato;
+  } */
 .custom-select{
 position: relative;
   }
