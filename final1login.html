@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" href="./final1login.css">
+    <link rel="stylesheet" href="css/final1login.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,700;1,400;1,700&display=swap"
@@ -23,8 +23,8 @@
                             <h1>Welcome Back Vro!</h1>
                             <div class="Id">
                                 <label for="email"> <span class="content-name">
-                                    Email
-                                </span></label>
+                                        Email
+                                    </span></label>
                                 <input type="email" name="email" id="email">
                                 <label for="Password">Password</label>
                                 <input type="password" name="Password" id="Password">
@@ -40,7 +40,7 @@
                             <div class="Google">
                                 <button>Google</button>
                             </div>
-                            <a href="#"id="hover" class="slide">Teacher</a>
+                            <a href="#" id="hover" class="slide">Teacher</a>
                         </div>
                         <div class="figure  fig-1 show">
                             <h1>Create Account</h1>
@@ -73,19 +73,24 @@
                                 </select>
                             </div>
                             </div> -->
-                            <div class="dropdown">
-                                <button class="dropbtn">Branch</button>
-                                <div class="dropdown-content">
-                                    <option value="1">Depstar IT</option>
-                                    <option value="2">Depstar CS</option>
-                                    <option value="3">Depstar CSE</option>
-                                    <!-- <a href="#">Link 1</a>
+                            <div class="custom-select">
+                                <!-- <button class="dropbtn"></button> -->
+                                <!-- <div class="dropdown-content"> -->
+                                    <select name="Branch" id="" class="selection">
+                                        <!-- <label for="Branch">Branch</label> -->
+                                        <!-- <option value="1">Branch</option> -->
+                                        <!-- <label for="">Branch</label> -->
+                                        <option value="1">Depstar IT</option>
+                                        <option value="2">Depstar CS</option>
+                                        <option value="3">Depstar CSE</option>
+                                        <!-- <a href="#">Link 1</a>
                                   <a href="#">Link 2</a>
                                   <a href="#">Link 3</a> -->
-                                
 
-                                </div>
-                              </div>
+                                    </select>
+                                    <span class="custom"></span>
+                                <!-- </div> -->
+                            </div>
                             <div class="Signup">
                                 <button>Sign Up</button>
                             </div>
@@ -106,7 +111,7 @@
                         </div>
                         <div class="figure fig-4 show">
                             <h1>Teacher Sing Up !</h1>
-                            <a href="#" id="hover"  class="toggle">Sign in</a>
+                            <a href="#" id="hover" class="toggle">Sign in</a>
                             <a href="#" id="hover" class="slide">Student</a>
                             <input type="text" minlength="4" class="input-field" required>
                             <label for="name">User Id</label>
