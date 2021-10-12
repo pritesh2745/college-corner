@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    background-image: url("img/book.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+ /* nav .navigation{
+   background-color: rgb(0, 161, 214);
+    
+} */
+.navbar{
+    /* display: flex;
+    
+    
+    background-color: wheat;
+    background-blend-mode: normal; */
+    /* background-image: url("..img/lauren-mancke-aOC7TSLb1o8-unsplash.png"); */
+    
+    position: relative;
+    display: flex;
+    height: 50%;
+}
+.nav-list{
+    width: 60%;
+    height: 30%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    }
+    .nav-list li{
+     list-style: none;
+     padding: 0 23px ;
+     align-items: center;
+    }
+    .nav-list li a{
+    text-decoration: none;
+    /* color: black; */
+    }
+    .rightnav{
+        /* background-color: blue; */
+        width: 50%;
+        text-align: right;
+        padding-right: 1vw;
+        padding-top: 1vh;
+    }
+    ::placeholder{
+     
+        color: rgb(58, 44, 44);
+    }

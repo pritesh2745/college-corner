@@ -28,7 +28,7 @@ main{
     height: 540px;
     max-width: 920px;
     /* background-color:lavender; */
-    background-color: rgba(0, 0, 0, 0.76);
+    background-color: rgba(201, 201, 201, 0.911);
     border-radius: 2rem;
     justify-content: center;
     align-content: center;
@@ -283,7 +283,7 @@ a{
     opacity: 60%;
     border-style: hidden;
     border-radius: 20px;
-    box-shadow:1px 0px 15px 8px rgb(87, 76, 76);
+    box-shadow:1px 0px 15px 8px rgb(80, 69, 69);
     transition-duration: 0.4s;
     margin-top:1vh;
  
@@ -293,7 +293,7 @@ a{
     -webkit-transform:scale(1.1,1.1);
     -moz-transform:scale(1.1,1.1);
     /* background-color: rgb(80, 69, 69); */
-    background-color: rgb(78, 17, 7);
+    background-color: rgb(80, 69, 69);
     opacity: 60%;
     color: white;
 }

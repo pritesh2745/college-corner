@@ -5,15 +5,18 @@
     padding: 0;
 }
 body{
-    background: url("img/background.jpg")no-repeat center fixed;
+    /* background: url("img/background.jpg")no-repeat center fixed; */
     /* background: url(images/bg.jpg) ;  */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     /* background-size: cover; */
-
+/* background-image: url("img/pexels-gabriel-peter-696644.jpg");
+background-size: contain;
+background-repeat:no-repeat; */
 }
+
 .navimg{
 /* size: inherit;  */
 /* width: 55%;
@@ -83,7 +86,7 @@ width: 25%;
      width: 100%;
 
 }
-ul{
+.nav_buttons{
     display: flex;
     justify-content: left;
     /* position: sticky; */
@@ -92,7 +95,7 @@ ul{
   top: 0;
   background-color:rgba(69, 103, 138, 0.801) ;
 }
-li,a{
+.nav,.login_btn{
     text-decoration: none;
     list-style: none;
 }
