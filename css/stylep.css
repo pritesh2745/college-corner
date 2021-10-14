@@ -151,11 +151,12 @@ font-size: 30px;
     /* box-shadow: ; */
 }
 .btn:hover{
-    background-color: rgb(128, 122, 122);
+    /* background-color: rgb(128, 122, 122);
     opacity: 60%;
     color: white;
     cursor: pointer;
-    border-radius: 22px;
+    border-radius: 22px; */
+    
 }
 #search{
  border: 1px solid rgb(75, 50, 50);
