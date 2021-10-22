@@ -1,0 +1,78 @@
+/* Container holding the image and the text */
+.bg{
+    
+     background: rgba(0, 0, 0, 0.753) url("img/laptop.png");
+     background-blend-mode: darken;
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+    width: 100%;
+    /* font-family: 'Poppins', sans-serif; */
+    height: 100%;
+    font-family: 'Anonymous Pro', monospace;  
+    background-size:cover; 
+}
+
+  
+  /* Bottom left text */
+  
+  /* Top left text */
+  
+  /* Top right text */
+  
+  /* Bottom right text */
+  /* @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap'); */
+  .bottom-right {
+    
+    /* box-sizing: border-box; */
+    /* font-family: 'Trebuchet MS', sans-serif;  */
+    font-family: 'Montserrat', sans-serif;
+    /* display: block; */
+    padding-left: 30vw;
+    /* padding-top:40vh; */
+    padding-bottom: 800px;
+    font-size: 400%;
+    color: rgba(255,255,255,.75);
+    padding-top: 5em;
+  display: flex;
+  justify-content: center;
+  }
+  /* font-family: 'Open Sans Condensed', sans-serif; */
+  /* position: absolute; */
+  /* font-family: 'Architects Daughter', cursive; */
+  /* font-family:sans-serif; */
+  /* font-weight:lighter; */
+  
+  /* height: calc(100vh - 8em); */
+  /* padding: 4em; */
+  /* font-family: 'Anonymous Pro', monospace;   */
+  /* background-color: rgb(25,25,25);   */
+  
+  
+  /* Global */
+  
+  
+  /* Google Fonts */
+  .typewriter h1 {
+    overflow: hidden; 
+    border-right: .15em solid rgba(141, 98, 19, 0.842);
+    white-space: nowrap; 
+    margin: 0 auto; 
+    letter-spacing: .15em; 
+    animation: 
+      typing 3.8s steps(18) infinite,
+      blink-caret .7s  infinite;
+  }
+  
+  
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 108% }
+  }
+  
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
+
+

@@ -19,4 +19,4 @@ $(document).ready(function(){
         $(".navbar").removeClass("sticky");
         $(".goTop").fadeOut();
       }
-    });
+    };

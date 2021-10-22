@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: white;
+    flex-direction: column;
+}
+.container{
+    position: relative;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    /* border: 2px solid red; */
+}
+.container .servicebox{
+    /* border: 2px solid black; */
+    background-color: antiquewhite;
+    position: relative;
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+}
+.subject{
+    height: 100vh;
+}
+.container .servicebox .icon{
+    border-radius: 20px;
+    background-color: var(--i);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:  100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    color: black;
+}
+.container .servicebox:hover .icon{
+    top: calc(50% - 55px);
+    left: calc(50% - 55px);
+    width: 110px;
+    height: 110px;
+    /* border-radius: 50%; */
+}
+.addsubject{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    border: 2px solid red;
+    background-color: aqua;
+}
+.Sem{
+    /* border: 2px solid red; */
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+.Subject{
+    /* border: 2px solid red; */
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    height: 100vh;
+    /* display: none; */
+}
+html {
+    scroll-behavior:smooth;
+}
+.TypeMaterial{
+    /* color: red; */
+    /* background-color: black; */
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    /* display: none; */
+    height: 100vh;
+}
+.TypeMaterial button{
+    outline: none;
+}
+.Last{
+    color: blueviolet;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    height: 100vh;
+    display: none;
+}
+.visbsle{
+    display: flex;
+}

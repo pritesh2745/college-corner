@@ -79,6 +79,7 @@ width: 25%;
     opacity:70%;
     mix-blend-mode:inherit;
 } */
+
 .navigation{
     margin: 0px -0.2% 0% -1%;
     background-color: rgba(0, 0, 0, 0.993);
@@ -93,7 +94,7 @@ width: 25%;
     position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
-  background-color:rgba(69, 103, 138, 0.801) ;
+  background-color:rgba(104, 141, 179, 0.801) ;
 }
 .nav,.login_btn{
     text-decoration: none;
@@ -106,7 +107,8 @@ width: 25%;
     justify-content: center;
 }
 .btn{
-    margin: 1vw;
+    /* margin: 1vw; */
+
 }
 /* background-color: blue; */
 /* width: 50%; */
