@@ -1,0 +1,40 @@
+/* Container holding the image and the text */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;500;600&display=swap');
+.homecc{
+     background-blend-mode: darken;
+    background-repeat: no-repeat;
+    width: 60%;
+    font-family: 'Anonymous Pro', monospace;  
+}
+  .bottom-right {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 180%;
+    color: rgb(155, 149, 149);
+  display: flex;
+  justify-content: center;
+  }
+  .typewriter h1 {
+    overflow: hidden; 
+    border-right: .15em solid rgba(141, 98, 19, 0.842);
+    white-space: nowrap; 
+    margin: 0 auto; 
+    letter-spacing: .15em; 
+    animation: 
+      typing 3.8s steps(18) infinite,
+      blink-caret .7s  infinite;
+  }
+  
+  
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 108% }
+  }
+  
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
+
+

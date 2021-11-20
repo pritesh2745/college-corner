@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+.contain{
+    height: 200vh;
+    /* margin-left: 260px; */
+    width: 100%;
+    overflow: hidden;
+}
+.navContainer{
+    height: 100vh;
+    background-color: blueviolet;
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 260px;
+    z-index: 100;
+}
+.navProfile{
+    padding-top: 15%;
+    width: 100%;
+    height: 25%;
+    background-color:darkgrey;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 25px;
+    color: wheat;
+    display: none;
+}
+.navProfile img{
+padding-bottom: 5%;
+height: 70px;
+width: 50px
+}
+.navoption{
+    width: 100%;
+    height: 75%;
+    background-color:darksalmon;
+    display: none;
+}
+.navUserIcon{
+    /* color: blanchedalmond; */
+    color: black;
+}
+.navoption , .subnav i{
+    line-height: 50px;
+}
+.subnav{
+    display: flex;
+    width: 100%;
+}
+.subnav i{
+    width: 30px;
+    margin-left: 10%;
+    /* border: 1px solid red; */
+}
+.subnav h3{
+    margin-left: 10%;
+    margin-right: 20%;
+}
+.branchIcon{
+    /* border: 1px solid red; */
+    color: black;
+}
+.show{
+    transition: width 2s ease-in-out;
+    display:inline-block;
+}
+.containChange{
+    transition: width 2s ease-in-out;
+    transform: translateX(260px);
+    width: calc(100% - 260px);
+}

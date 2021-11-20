@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Roboto+Mono:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.aboutus{
+  column-gap:  60px;
+    height: 65vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.about_para p{
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: rgb(80, 80, 80);
+    padding-top: 33px;
+    word-spacing: 2px;
+font-family: 'Oxygen', sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    text-align: center;
+}
+.about_box{
+    /* border: 1px solid; */
+  /* padding: 1px;
+
+  box-shadow:  20px 20px 20px 20px #88888877; */
+    border-radius: 25px;
+    box-shadow:
+    0 2.8px 2.2px rgba(145, 145, 145, 0.024),
+    0 6.7px 5.3px rgba(145, 145, 145, 0.024),
+    0 12.5px 10px rgba(145, 145, 145, 0.024),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 10px 80px rgba(0, 0, 0, 0.099)
+  ; 
+  /* border: 2px solid; */
+ background-color:  rgba(223, 223, 226, 0.61);
+    /* background-color: rgba(214, 214, 214, 0.726); */
+    /* padding-left: 13px; */
+    /* padding-right: 13px; */
+    height: 65%;
+    width: 30%;
+}
+
+.about_dp img{
+    
+margin: auto;
+   /* padding-left: 40px; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    display: block;
+width: 70px;
+height: 70px;
+/* padding-bottom: 33px; */
+
+}
+.about_name::after{
+    display: inline-block;
+    /* height: 1px; */
+    width: 30px;
+    content: "";
+    border-bottom: 3px solid red;
+    border-radius: 50px;
+   
+/* transform: translateX(-20px); */
+transform: translateY(-10px);
+}
+.about_name{
+ 
+    padding-top: 60px ;
+    text-align: center;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-family: 'Roboto Mono', monospace;
+    color: rgba(37, 37, 37, 0.671);
+}
+.about_designation{
+    
+    /* font-family: 'Open Sans Condensed', sans-serif; */
+    
+    font-family: 'Quicksand', sans-serif;
+    padding-top: 5px;
+   
+    text-align: center;
+    color: rgba(131, 130, 130, 0.856);
+}

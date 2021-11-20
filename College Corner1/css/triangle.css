@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.TrinagleOut{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* background-color: #e9204f0e; */
+}
+.Triangle{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    /* height: 600px; */
+    /* border: 2px solid red; */
+    gap: 10px;
+}
+.Triangle .Type{
+    /* border: 2px solid red; */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    transition: 0.5s;
+    margin: 0 -70px;
+    clip-path: polygon(50% 100%,0% 0%,100% 0%);
+}
+.Triangle a{
+    text-decoration: none;
+    color: black;
+}
+.Triangle .Type:nth-child(1){
+    background: url('../img/Book-1.gif') no-repeat center;
+    background-color:#e9204f;
+    /* background-color:rgb(170, 47, 218); */
+    background-size: cover;
+    padding-bottom: 50px;
+}
+.Triangle .Type:nth-child(2){
+    padding-top: 220px;
+    /* background-color:#e9204f; */
+    background: url('../img/pdf.gif') no-repeat center;
+    clip-path: polygon(50% 0%,0% 100%,100% 100%);
+    background-size: cover;
+    color: red;
+}
+.Triangle .Type:nth-child(3){
+    padding-bottom: 50px;
+    /* color: #e9204f; */
+    background: url('../img/QuePaper-1.gif') no-repeat center;
+    /* background-color:rgb(45, 138, 130); */
+    background-size: cover;
+}
+.Triangle .Type:nth-child(4){
+    padding-bottom: 200px;
+    background: url('../img/notes.gif') no-repeat center;
+    /* background-color:rgb(45, 138, 130); */
+    background-size: cover;
+}
+.Triangle .Type:hover h1{
+    transform: scale(1.25);
+}
